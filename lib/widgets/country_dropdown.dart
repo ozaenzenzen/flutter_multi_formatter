@@ -142,7 +142,7 @@ class _CountryDropdownState extends State<CountryDropdown> {
                   ),
                   child: Text(
                     phoneCountryData.country ?? '',
-                    style: Theme.of(context).textTheme.bodySmall,
+                    style: Theme.of(context).textTheme.bodyText2,
                     maxLines: 1,
                   ),
                 ),
